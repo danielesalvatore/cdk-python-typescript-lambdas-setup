@@ -1,10 +1,10 @@
+![Cover](./img/cover.png)
 
-# Welcome to your CDK Python project!
+# CDK Python and TypeScript lambdas setup
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`cdk_python_typescript_setup_stack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+The repo contains a working example of the configuration described at: [Three tutorials to boost your AWS CDK Python and TypeScript lambda development](https://medium.com/@_dani_salv/three-tutorials-to-boost-your-aws-cdk-python-and-typescript-lambda-development-7f0a27702656)
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## How to use the project
 
 This project is set up like a standard Python project.  The initialization process also creates
 a virtualenv within this project, stored under the .venv directory.  To create the virtualenv
@@ -41,13 +41,6 @@ At this point you can now synthesize the CloudFormation template for this code.
 
 ```
 $ cdk synth
-```
-
-You can now begin exploring the source code, contained in the hello directory.
-There is also a very trivial test included that can be run like this:
-
-```
-$ pytest
 ```
 
 To add additional dependencies, for example other CDK libraries, just add to
